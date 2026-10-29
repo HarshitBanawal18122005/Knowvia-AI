@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Large local databases and indexes
+*.db
+*.sqlite
+*.sqlite3
+*.index
+
+# Cache and logs
+.cache/
+.pytest_cache/
+.streamlit/secrets.toml
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backups and conversation data
+*backup*
+curio_chats.json
+
+# Generated datasets (keep source/build scripts)
+articles.csv
+test_articles.csv
+wikipedia_articles.csv
